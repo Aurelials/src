@@ -6,7 +6,8 @@ public class RekeningBank {
   int noRekening;
   
 //3. MEMBUAT CONSTRUCTOR
-  Mobilsedan(String NamaPemilik, String JenisBank, String Password, int noRekening) {
+  Mobilsedan(String NamaPemilik, String JenisBank, 
+String Password, int noRekening) {
 
 this.nama = NamaPemilik;
 this.Jenisbank = JenisBank;
@@ -16,6 +17,8 @@ this.noRek = noRekening;
 
 //4. MEMBUAT METHOD
   void Rekening(){
-System.out.println("Nama Pemilik = " + NamaPemilik + "Nama Bank = " + JenisBank + "Password = " + Password+ "No. Rekening = " + noRekening)
+System.out.println("Nama Pemilik = " + NamaPemilik + 
+"Nama Bank = " + JenisBank + "Password = " + Password +
+ "No. Rekening = " + noRekening)
   }
 }
